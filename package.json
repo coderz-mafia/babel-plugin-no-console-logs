@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "A babel plugin for removing console logs",
   "main": "index.js",
+  "homepage": "https://github.com/JayaKrishnaNamburu/babel-plugin-no-console-logs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "babel",
     "babel-plugin",
-    "no-console-logs"
+    "no-console-logs",
+    "remove logs",
+    "console logs"
   ],
   "author": "Jaya Krishna Namburu",
   "license": "MIT"
