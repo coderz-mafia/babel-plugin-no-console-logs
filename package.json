@@ -5,6 +5,8 @@
   "main": "index.js",
   "homepage": "https://github.com/JayaKrishnaNamburu/babel-plugin-no-console-logs",
   "scripts": {
+    "copy": "cp package.json dist/ && cp README.md dist/",
+    "build": "webpack && npm run copy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,10 @@
     "console logs"
   ],
   "author": "Jaya Krishna Namburu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  }
 }
