@@ -1,15 +1,6 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = _default;
-
-function _default(babel) {
-  var t = babel.types;
+module.exports = function ({ types: t }) {
   return {
     name: "babel-plugin-no-console-logs",
-    // not required
     visitor: {
       CallExpression: function CallExpression(path) {
         if (compare(path)) {
