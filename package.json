@@ -6,8 +6,9 @@
   "homepage": "https://github.com/JayaKrishnaNamburu/babel-plugin-no-console-logs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && babel src --out-dir dist",
-    "clean": "rimraf dist/*"
+    "transpile": "babel plugins --out-dir dist",
+    "build": "npm run clean:build && babel src --out-dir build",
+    "clean:build": "rimraf build/*"
   },
   "keywords": [
     "babel",

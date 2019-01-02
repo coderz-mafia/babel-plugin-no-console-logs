@@ -7,3 +7,7 @@ function demo() {
 () => {
     console.log(' this is arrow function');
 }
+
+abc.console();
+
+log.console();
